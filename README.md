@@ -1,5 +1,7 @@
 # MVP - Machine learning
 
+**[Desafio kaggle](https://www.kaggle.com/datasets/kelvinkelue/credit-card-fraud-prediction)**
+
 ## Descrição do conjunto de dados 📜
 
 Este conjunto de dados oferece uma variedade de atributos valiosos para uma análise abrangente. 
@@ -105,7 +107,7 @@ Acurácio do modelo NB: 0.976373
 
 Em todos os testes e treinamentos, CART obteve a maior acurácia!
 
-Porém KNN(utilizando SMOTE) conseguiu o melhor desempenho em encontrar fraudes(357), em contrapartida, apresentou muitos falsos positivos(2132). 
+Porém, KNN(utilizando SMOTE) conseguiu o melhor desempenho em encontrar fraudes(357), em contrapartida, apresentou muitos falsos positivos(2132). 
 Esse modelo previu, corretamente, que 108586 casos não eram fraudes e errou apenas 69(falso negativo).
 
 Já o Cart(one-hot encoder), com acurácia de 0.996869, encontrou 252 fraudes e apresentou poucos falsos positivos(174).
